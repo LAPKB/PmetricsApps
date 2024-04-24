@@ -7,11 +7,11 @@
 build_model(...)
 }
 \arguments{
-\item{...}{Optional [PM_data] and/or [PM_model] object(s). *PM_data* objects
-supply covariates. *PM_model* objects supply any other defined model element,
-and covariates only if there is no *PM_data* object or it has no covariates.
-If the *PM_model* object contains covariates, they will be superseded by those in
-the *PM_data* object, if supplied.}
+\item{...}{Optional \link{PM_data} and/or \link{PM_model} object(s). \emph{PM_data} objects
+supply covariates. \emph{PM_model} objects supply any other defined model element,
+and covariates only if there is no \emph{PM_data} object or it has no covariates.
+If the \emph{PM_model} object contains covariates, they will be superseded by those in
+the \emph{PM_data} object, if supplied.}
 }
 \value{
 Launches the shiny app.
